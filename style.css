@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(90deg, rgb(2, 188, 250), blue);
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    /* background: #f4d6db; */
+}
+
+header {
+    background-color: rgb(153, 209, 231);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+header h1{
+    margin-bottom: 1px;
+}
+header p{
+    margin-top: 2px;
+    margin-bottom: 30px
+}
+header img {
+    width: 200px;
+    float: center;
+    border-radius: 50%;
+    margin: 10px auto 10px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 14px 28px gray, 0 10px 10px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.education-item ul {
+    list-style-type: none;
+  }
+  ul.star-list {
+    padding: 0;
+  }
+.star-list li:before {
+    content: "★ ";
+    color: gold;
+    font-size: 20px;
+  }
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    font-size: 18px;
+}
+
+.education-item p {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+footer {
+    background-color: rgb(153, 209, 231);
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
