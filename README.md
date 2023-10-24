@@ -1,2 +1,2 @@
 # Digital-Portfolio
-I prepare my portfolio for naan mudhalvan course completion.
+I prepared my portfolio for naan mudhalvan course completion.
